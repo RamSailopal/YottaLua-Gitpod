@@ -32,7 +32,7 @@ This can further be seen by running the following in the second window:
     List ^test
     ^test(1)="Testing"
     
- The same Lua code can be run in Lua environment (third window)
+ The same Lua code can be run in the Lua environment (third window)
  
      ydb = require('yottadb')
      ydb.set('^TEST', {'1'}, "Testing")
