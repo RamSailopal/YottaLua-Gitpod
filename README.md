@@ -31,8 +31,8 @@ This can further be seen by running the following in the second window:
 
     Output device: <terminal>:
 
-    List ^test
-    ^test(1)="Testing"
+    List ^TEST
+    ^TEST(1)="Testing"
     
  The same Lua code can be run in the Lua environment (third window)
  
