@@ -8,7 +8,12 @@ tasks:
     openMode: split-right
 
   - name: "Run Lua"
-    command:  sleep 60 && docker exec -it yottadb lua
+    command:  sleep 60 && docker exec -it yottadb bash -c "source /opt/yottadb/current/ydb_env_set && lua"
     openMode: split-right
+
+  - name: "Run command line"
+    command:  sleep 60 && docker exec -it yottadb bash -c "source /opt/yottadb/current/ydb_env_set && cd /home/luacode"
+    openMode: split-right
+
 
 
