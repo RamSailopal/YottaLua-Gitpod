@@ -1,14 +1,14 @@
 
 tasks:
   - name: "Run the container"
-    command: docker run --name yottadb --entrypoint /code/entrypoint.sh -it -v $PWD:/code docker.io/yottadb/yottadb-base
+    command: docker run --name yottadb --entrypoint /home/luacode/entrypoint.sh -it -v $PWD/code:/home/luacode docker.io/yottadb/yottadb-base
 
   - name: "Run YottaDB prompt"
-    command:  sleep 5 && docker exec -it yottadb /opt/yottadb/current/ydb
+    command:  sleep 60 && docker exec -it yottadb /opt/yottadb/current/ydb
     openMode: split-right
 
   - name: "Run Lua"
-    command:  sleep 5 && docker exec -it yottadb lua
+    command:  sleep 60 && docker exec -it yottadb lua
     openMode: split-right
 
 
