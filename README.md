@@ -41,6 +41,10 @@ This can further be seen by running the following in the second window:
      ydb.get('^TEST', {'1'})
      
      Testing
+     
+ # Further Coding Reference
+ 
+ https://docs.yottadb.com/MultiLangProgGuide/luaprogram.html
     
 
 
