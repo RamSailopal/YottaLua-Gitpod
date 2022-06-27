@@ -8,7 +8,9 @@ Once the enviromnent has provisioned full, four windows will open at the bottom 
 
 The first window can be ignored, the second window will give access to the YottaDB environment, the third will be access to a Lua environment and fourth, access to a command line to run Lua code.
 
-A simple test example is stored in the code folder:
+![Alt text](Gitpod-Lua.JPG?raw=true "Gitpod")
+
+A simple test code example is stored in the code folder:
 
     ydb = require('yottadb')
     ydb.set('^TEST', {'1'}, "Testing")
