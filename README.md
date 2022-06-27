@@ -38,7 +38,7 @@ This can further be seen by running the following in the second window:
      ydb.set('^TEST', {'1'}, "Testing")
      ydb.get('^TEST', {'1'})
      
-     'Testing'
+     Testing
     
 
 
