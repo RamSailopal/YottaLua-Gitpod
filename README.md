@@ -21,7 +21,7 @@ This can be run in the fourth window with:
 
     lua test.lua
     
-The code set performs the following equivalent in M:
+The code performs the following equivalent in M:
 
     S ^TEST("1")="Testing"
     
