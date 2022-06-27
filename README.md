@@ -4,7 +4,7 @@ Gitpod environment for development with Lua and YottaDB
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/RamSailopal/YottaLua-Gitpod)
 
-Once the enviromnent has provisioned full, four windows will open at the bottom of the screen.
+Once the environment has provisioned fully, four windows will open at the bottom of the screen.
 
 The first window can be ignored, the second window will give access to the YottaDB environment, the third will be access to a Lua environment and fourth, access to a command line to run Lua code.
 
